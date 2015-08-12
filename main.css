@@ -2,6 +2,10 @@
 Iteration 2 Styling
 ********************/
 
+header svg {
+	margin-top: 150px;
+}
+
 header {
 text-align: center;
 }
@@ -73,7 +77,7 @@ header nav {
 	overflow: auto;
 	height: 500px;
 	position: fixed;
-	top:200px;
+	top:390px;
 	text-align: left;
 }
 
