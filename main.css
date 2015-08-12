@@ -1,3 +1,7 @@
+/*******************
+Iteration 2 Styling
+********************/
+
 header {
 text-align: center;
 }
@@ -11,6 +15,11 @@ h1 {position: fixed;
 	font-size: 400%;	
 }
 
+article {
+	width: 95%;
+	padding: 10px;
+	margin:0 0 10px 10px;
+}
 
 img {
 	float: left;
@@ -33,5 +42,90 @@ h2:before {
     height: 74px;
     margin-top: -74px;
     }
+
+/**********************
+Iteration 3 Styling
+**********************/
+
+/*Media query*/
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  
+ .Logo {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    display: flex;
+  }
+
+
+.Navigation
+{	font-size: 25px;
+	display: block;
+	text-align: left;
+	position: fixed;
+	top:280px;
+	float: left;
+	overflow: auto;
+	height:350px;
+}
+
+
+h1 {background-color: transparent;
+	font-size: 1000%;
+	position: absolute;
+	top:0;
+	}
+
+
+img {
+display: block;
+	content: url(http://placehold.it/200x130);
+	margin-right: 20px;
+	width: 30%;
+	}
+
+img {100%}
+
+/*#alignRight{
+	float: right;
+	margin-left: 20px;
+}*/
+
+.Content {
+	float: right;
+	width: 65%;
+	margin-top: 200px;
+}
+
+
+footer {
+	padding: 20px;
+	clear:both;
+}
+
+article:nth-child(even)>img {float: right;
+	margin-left: 20px;
+
+}
+
+header svg {
+	padding-top: 1rem;
+	width:100px;
+	height: 100px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
