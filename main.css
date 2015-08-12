@@ -6,6 +6,12 @@ header {
 text-align: center;
 }
 
+header svg {
+	padding-top: 1rem;
+	width:100px;
+	height: 100px;
+}
+
 
 h1 {position: fixed; 
 	top:0px;
@@ -31,9 +37,7 @@ footer{
 	text-align: center;
 }
 
-.Logo{
-	margin-top: 80px;
-}
+
 
 /* Prevents content from hiding behind the fixed header, when clocking nav bar*/
 h2:before {
@@ -51,27 +55,30 @@ Iteration 3 Styling
 
 @media screen and (min-width: 600px) and (orientation: landscape) {
   
- .Logo {
-    height: 200px;
-    width: 200px;
-    position: fixed;
-    display: flex;
-  }
-
-
-.Navigation
-{	font-size: 25px;
-	display: block;
-	text-align: left;
-	position: fixed;
-	top:280px;
+header svg {
+	height: 200px;
+	width:200px;
 	float: left;
-	overflow: auto;
-	height:350px;
+	position: fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
 }
 
 
-h1 {background-color: transparent;
+header nav {
+	font-size: 25px;
+	float: left;
+	overflow: auto;
+	height: 500px;
+	position: fixed;
+	top:200px;
+	text-align: left;
+}
+
+
+header h1 {background-color: transparent;
 	font-size: 1000%;
 	position: absolute;
 	top:0;
@@ -87,10 +94,6 @@ display: block;
 
 img {100%}
 
-/*#alignRight{
-	float: right;
-	margin-left: 20px;
-}*/
 
 .Content {
 	float: right;
@@ -107,12 +110,6 @@ footer {
 article:nth-child(even)>img {float: right;
 	margin-left: 20px;
 
-}
-
-header svg {
-	padding-top: 1rem;
-	width:100px;
-	height: 100px;
 }
 
 
