@@ -43,13 +43,13 @@ footer{
 text-align: left;
 background-color: #efefef;
 position: fixed;
-bottom:0px;
+bottom:0;
 margin-left: -10px;
 width:100%;
 }
 
 .Hamburger{
-	margin-top: 5px;
+	margin-top: 6px;
 }
 
 .Content {
