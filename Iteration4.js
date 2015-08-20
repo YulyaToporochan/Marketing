@@ -1,6 +1,6 @@
 
 $( ".Hamburger" ).click(function() {
-  $(".Content" ).animate({"left":"+600px"});
+  $(".Content" ).animate({"left":"+650px"});
 });
 
 $(".Navigation a").click(function() {
