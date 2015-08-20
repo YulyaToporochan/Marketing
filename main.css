@@ -22,7 +22,8 @@ h1 {position: fixed;
 	width:100%;
 	margin: 0px 0px 0px -10px;
 	background-color: #efefef;
-	font-size: 400%;	
+	font-size: 400%;
+	z-index: 10;	
 }
 
 article {
@@ -31,6 +32,8 @@ article {
 	margin:0 0 10px 10px;
 }
 
+
+
 img {
 	float: left;
 	margin-right: 5px;
@@ -38,12 +41,29 @@ img {
 }
 
 footer{
-	text-align: center;
+text-align: left;
+background-color: #efefef;
+position: fixed;
+bottom:0px;
+margin-left: -10px;
+width:100%;
+}
+
+.Hamburger{
+	margin-top: 5px;
+}
+
+.Content {
+	position: absolute;
+	top:180px;
+	background-color: white;
+
 }
 
 
 
-/* Prevents content from hiding behind the fixed header, when clocking nav bar*/
+
+/* Prevents content from hiding behind the fixed header, when clicking nav bar*/
 h2:before {
     display: block;
     content: "";
